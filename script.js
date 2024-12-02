@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
+let tempF = parseFloat(prompt('Digite a sua temperatura em F: '));
 
-<head>
-    <title>questao7</title>
-</head>
+let conversao = (tempF - 32) * 5 / 9;
+let tempCelsius = conversao;
 
-<body>
-    <script src="Js/scripts.js"></script>
-</body>
-
-</html>
+alert('A sua temperatura de ' + tempF + 'F' + ' para celsius é de: ' + tempCelsius + '°C');
